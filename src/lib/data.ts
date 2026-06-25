@@ -60,7 +60,7 @@ export const SERVICE_TABS: {
     cards: [
       {
         title: 'Kondicionierių montavimas',
-        desc: 'Profesionalus oras–oras sistemų montavimas namuose ir butuose.',
+        desc: 'Profesionalus oro kondicionierių montavimas namuose ir butuose.',
         img: 'heroTech',
         features: [
           'Sieninių blokų montavimas',
@@ -73,7 +73,7 @@ export const SERVICE_TABS: {
       },
       {
         title: 'Priežiūra ir valymas',
-        desc: 'Reguliari priežiūra užtikrina švarų orą ir ilgaamžiškumą.',
+        desc: 'Reguliari priežiūra užtikrina švarų orą ir ilgesnį sistemos veikimą.',
         img: 'case1',
         features: [
           'Filtrų valymas ir keitimas',
@@ -86,7 +86,7 @@ export const SERVICE_TABS: {
       },
       {
         title: 'Remontas ir aptarnavimas',
-        desc: 'Greitas gedimų šalinimas bei garantinis aptarnavimas.',
+        desc: 'Greitas gedimų šalinimas ir garantinis aptarnavimas.',
         img: 'case3',
         features: [
           'Gedimų diagnostika',
@@ -105,7 +105,7 @@ export const SERVICE_TABS: {
     cards: [
       {
         title: 'Biurai ir patalpos',
-        desc: 'Komfortas darbo vietoje — tylu, efektyvu ir patikima.',
+        desc: 'Tylus ir efektyvus vėsinimas biurams ir darbo patalpoms.',
         img: 'case4',
         features: [
           'Multi-split sistemos',
@@ -118,7 +118,7 @@ export const SERVICE_TABS: {
       },
       {
         title: 'Parduotuvės ir HoReCa',
-        desc: 'Stabili vėsa didelio žmonių srauto erdvėms.',
+        desc: 'Patikimas vėsinimas patalpoms su dideliu žmonių srautu.',
         img: 'process',
         features: [
           'Galingos vėsinimo sistemos',
@@ -152,29 +152,29 @@ export const BENEFITS: { icon: BenefitIcon; title: string; desc: string }[] = [
   {
     icon: 'clock',
     title: 'Greitas atvykimas',
-    desc: 'Reaguojame operatyviai ir atvykstame Vilniuje bei 30 km spinduliu, kai tik reikia.',
+    desc: 'Operatyviai reaguojame ir atvykstame būtent tada, kada jums reikia.',
   },
   {
     icon: 'dollar',
     title: 'Skaidrios kainos',
-    desc: 'Aiškus pasiūlymas be paslėptų mokesčių — kainą sužinosite iš anksto.',
+    desc: 'Galutinę kainą sužinosite dar prieš pradedant darbus — jokių paslėptų mokesčių ar netikėtų staigmenų.',
   },
   {
     icon: 'award',
     title: '18 metų patirtis',
-    desc: 'Patyrę specialistai, PRO statusas ir paslaugos.lt patvirtinta tapatybė.',
+    desc: 'Sertifikuoti meistrai su įvertintu PRO statusu.',
   },
   {
     icon: 'calendar',
     title: 'Garantinis aptarnavimas',
-    desc: 'Garantinė ir pogarantinė priežiūra bei reguliarūs profilaktiniai patikrinimai.',
+    desc: 'Ilgalaikė techninė priežiūra ir reguliarūs profilaktiniai patikrinimai.',
   },
 ]
 
 export const FAQS = [
   {
     q: 'Kiek kainuoja oro kondicionieriaus montavimas?',
-    a: 'Kaina priklauso nuo sistemos ir objekto. Pateikiame nemokamą konsultaciją bei aiškų pasiūlymą prieš pradedant darbus. Darbo įkainis — nuo 200 €/val. Tikslesnio pasiūlymo teiraukitės tel. +370 644 22558.',
+    a: 'Kaina priklauso nuo pasirinktos sistemos ir objekto. Darbo įkainis — nuo 200 €/val. Prieš darbus pateikiame nemokamą konsultaciją ir tikslų pasiūlymą. Skambinkite +370 644 22558.',
   },
   {
     q: 'Ar atvykstate už Vilniaus ribų?',

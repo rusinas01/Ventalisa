@@ -28,7 +28,7 @@ const APART_BAND = [
   {
     icon: SettingsIcon,
     title: 'Techninis meistriškumas',
-    desc: 'Patyrę specialistai, dirbantys su naujausiomis oras–oras kondicionavimo sistemomis',
+    desc: 'Patyrę specialistai, dirbantys su naujausiomis kondicionavimo sistemomis',
   },
   {
     icon: ShieldIcon,
@@ -72,8 +72,8 @@ export function AboutHero() {
           Apie {BRAND.name}
         </h1>
         <p className="mt-5 max-w-xl text-[14px] leading-relaxed text-ink-500">
-          Patikimas oro kondicionavimo partneris Vilniuje ir aplinkiniuose rajonuose,
-          turintis 18 metų patirtį ir PRO statusą.
+          Patikimas oro kondicionavimo partneris Vilniuje. 18 metų patirtis ir PRO
+          statusas.
         </p>
       </Reveal>
     </section>
@@ -91,21 +91,18 @@ export function AboutStory() {
             </h2>
             <div className="mt-6 space-y-4 text-[14px] leading-relaxed text-ink-500">
               <p>
-                {BRAND.name} — Vilniuje veikianti įmonė, turinti 18 metų patirtį oro
-                kondicionavimo srityje. Užsiimame oro kondicionavimo sistemų pardavimu,
-                montavimu, technine priežiūra ir aptarnavimu — tiek gyvenamuosiuose
-                namuose bei butuose, tiek biuruose ir komercinėse patalpose.
+                {BRAND.name} — Vilniaus įmonė, turinti 18 metų patirtį oro kondicionavimo
+                srityje. Parduodame, montuojame, prižiūrime ir remontuojame oro
+                kondicionierius namuose, butuose, biuruose ir komercinėse patalpose.
               </p>
               <p>
-                Parenkame optimaliausius sprendimus pagal objekto poreikius, atliekame
-                profesionalų montavimą ir užtikriname ilgalaikį sistemų veikimą. Taip pat
-                teikiame garantinį ir pogarantinį aptarnavimą, profilaktinę priežiūrą bei
-                šaliname gedimus.
+                Parenkame tinkamiausią sprendimą pagal objektą ir sumontuojame
+                profesionaliai. Teikiame garantinį ir pogarantinį aptarnavimą, profilaktinę
+                priežiūrą bei šaliname gedimus.
               </p>
               <p>
-                Dirbame atsakingai, laikomės terminų ir siekiame kokybiško rezultato
-                kiekviename objekte. Nesvarbu, ar esate namo savininkas, ar verslo
-                atstovas — pasirūpinsime, kad jūsų patalpose būtų komfortas visus metus.
+                Dirbame atsakingai ir laikomės terminų. Nesvarbu, ar esate namų savininkas,
+                ar verslo atstovas — pasirūpinsime jūsų patalpų komfortu ištisus metus.
               </p>
             </div>
           </Reveal>
@@ -193,20 +190,16 @@ export function AboutCommitment() {
               </h2>
               <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-ink-500">
                 <p>
-                  {BRAND.name} suprantame, kad tinkamai veikianti oro kondicionavimo
-                  sistema svarbi jūsų namų ir verslo komfortui. Todėl savo veiklą
-                  grindžiame trimis principais: patikimumu, profesionalumu ir greitu
-                  aptarnavimu.
+                  Suprantame, kad gerai veikiantis oro kondicionierius svarbus jūsų
+                  komfortui. Todėl dirbame patikimai, profesionaliai ir greitai.
                 </p>
                 <p>
-                  Nuo greito gedimų šalinimo iki profilaktinės priežiūros programų, kurios
-                  palaiko efektyvų sistemų veikimą — esame šalia, kad pasirūpintume jūsų
-                  patalpų klimatu.
+                  Sumontuojame, prižiūrime ir remontuojame sistemas. Reguliariai atliekame
+                  profilaktinę priežiūrą, kad jos veiktų sklandžiai visus metus.
                 </p>
                 <p>
-                  Nuolat giliname žinias apie naujausias technologijas ir geriausią
-                  praktiką, todėl galite tikėtis efektyvių ir ilgaamžių sprendimų kiekvienam
-                  objektui.
+                  Sekame naujausias technologijas ir siūlome ilgaamžius, efektyvius
+                  sprendimus kiekvienam objektui.
                 </p>
               </div>
             </div>

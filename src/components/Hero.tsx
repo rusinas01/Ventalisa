@@ -49,8 +49,7 @@ export function Hero() {
 
               {/* paragraph */}
               <p className="mt-6 max-w-md text-[15px] leading-relaxed text-white/80">
-                Oro kondicionierių montavimas, priežiūra ir remontas Vilniuje ir 30 km
-                spinduliu. 18 metų patirtis.
+                Oro kondicionierių montavimas, priežiūra ir remontas Vilniuje.
               </p>
 
               {/* buttons */}

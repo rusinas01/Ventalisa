@@ -31,9 +31,11 @@ export function AboutUs() {
           {/* RIGHT — statement + checklist + trust row */}
           <Reveal delay={100}>
             <p className="text-2xl font-semibold leading-snug tracking-tight text-ink-900 sm:text-[1.75rem] sm:leading-[1.35]">
-              Patikimas oro kondicionavimo partneris Vilniuje — namams ir verslui. Nuo
-              profesionalaus montavimo iki greito aptarnavimo: pasirūpiname, kad jūsų
-              patalpose būtų komfortas be rūpesčių ir laukimo.
+              Oro kondicionavimas Vilniuje — namams ir verslui.
+            </p>
+            <p className="mt-4 text-[15px] leading-relaxed text-ink-500">
+              Nuo profesionalaus montavimo iki greito aptarnavimo. Komfortas jūsų
+              patalpose — be rūpesčių ir laukimo.
             </p>
 
             <ul className="mt-8 space-y-4">

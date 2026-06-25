@@ -21,7 +21,7 @@ const BAND_ITEMS = [
   {
     icon: RefreshIcon,
     title: 'Montavimas',
-    desc: 'Profesionalus oras–oras kondicionierių montavimas namuose ir butuose',
+    desc: 'Profesionalus oro kondicionierių montavimas namuose ir butuose',
   },
   {
     icon: BuildingIcon,
@@ -51,9 +51,9 @@ export function InstallationFeature() {
                 Montavimas ir sistemų keitimas
               </h2>
               <p className="mt-5 max-w-md text-[14px] leading-relaxed text-ink-500">
-                Profesionalus oro kondicionierių montavimas ir senų sistemų keitimas. Mūsų
-                specialistai parenka tinkamą sprendimą, sumontuoja tvarkingai ir užtikrina
-                ilgalaikį sistemos veikimą — namuose, biure ar komercinėse patalpose.
+                Sumontuojame naujus kondicionierius ir pakeičiame senas sistemas.
+                Parenkame tinkamą sprendimą, dirbame tvarkingai ir užtikriname ilgalaikį
+                veikimą — namuose, biure ar versle.
               </p>
 
               <h3 className="mt-8 text-lg font-semibold text-ink-900">Montavimo tipai</h3>

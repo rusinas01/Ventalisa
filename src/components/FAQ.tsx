@@ -18,7 +18,7 @@ export function FAQ() {
             <br className="sm:hidden" /> užduodami klausimai
           </h2>
           <p className="mt-4 text-[14px] text-ink-400">
-            Viskas, ką reikia žinoti apie mūsų paslaugas
+            Atsakymai į dažniausius klausimus
           </p>
         </Reveal>
 

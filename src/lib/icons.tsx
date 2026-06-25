@@ -188,8 +188,8 @@ export const SirenIcon = (p: IconProps) => (
 
 export const DollarIcon = (p: IconProps) => (
   <svg {...base(p)}>
-    <path d="M7.5 9.5c0-1.4 1.6-2.5 4.5-2.5s4.5 1 4.5 2.3c0 1.5-1.6 2.2-4.5 2.7s-4.5 1.2-4.5 2.7c0 1.3 1.6 2.3 4.5 2.3s4.5-1.1 4.5-2.5" />
-    <path d="M12 5v2M12 17v2" />
+    <path d="M12 2v20" />
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
   </svg>
 )
 

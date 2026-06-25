@@ -20,7 +20,7 @@ export function Services() {
           </h2>
           <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-ink-500">
             Profesionalus oro kondicionavimo sistemų montavimas, priežiūra ir remontas
-            namams bei verslui Vilniuje ir 30 km spinduliu.
+            namams bei verslui.
           </p>
         </Reveal>
 

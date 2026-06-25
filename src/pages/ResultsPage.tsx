@@ -24,8 +24,8 @@ function JobsHero() {
             Atlikti darbai
           </h1>
           <p className="mt-5 max-w-xl text-[14px] leading-relaxed text-ink-500">
-            Keletas pastarojo meto oro kondicionavimo projektų Vilniuje ir aplinkiniuose
-            rajonuose — sumontuota tvarkingai ir patikimai.
+            Keletas pastarojo meto darbų Vilniuje ir aplink — sumontuota tvarkingai ir
+            patikimai.
           </p>
         </Reveal>
       </div>

@@ -24,8 +24,8 @@ function ContactHero() {
             Susisiekite
           </h1>
           <p className="mt-5 max-w-xl text-[14px] leading-relaxed text-ink-500">
-            Klausimai, pasiūlymai ar skubus gedimas? Susisiekite bet kada — atsakysime
-            greitai, patarsime ir pasiūlysime tinkamiausią sprendimą.
+            Turite klausimą ar skubų gedimą? Parašykite arba paskambinkite — atsakysime
+            greitai.
           </p>
         </Reveal>
 
