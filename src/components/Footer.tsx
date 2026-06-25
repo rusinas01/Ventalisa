@@ -21,8 +21,7 @@ export function Footer() {
           <div>
             <Logo light />
             <p className="mt-4 max-w-[15rem] text-[13px] leading-relaxed text-white/50">
-              Patikimas oro kondicionavimo partneris Vilniuje ir 30 km spinduliu. 18 metų
-              patirtis.
+              Patikimas oro kondicionavimo partneris Vilniuje. 18 metų patirtis.
             </p>
             <div className="mt-5 flex gap-2.5">
               {[FacebookIcon, InstagramIcon].map((Icon, i) => (
@@ -56,7 +55,7 @@ export function Footer() {
             <p className="mt-4 text-[13px] leading-relaxed text-white/50">
               Vilnius
               <br />
-              ir 30 km spinduliu
+              ir 30 km spinduliu aplink
             </p>
           </div>
 

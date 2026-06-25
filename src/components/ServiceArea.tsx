@@ -25,8 +25,8 @@ export function ServiceArea() {
                 Aptarnaujamos teritorijos
               </h2>
               <p className="mt-5 max-w-md text-[14px] leading-relaxed text-ink-500">
-                Dirbame Vilniuje ir 30 km spinduliu — namuose ir versle. Skambinkite{' '}
-                {BRAND.phone} ir parinksime tinkamiausią sprendimą.
+                Dirbame Vilniuje ir 30 km spinduliu aplink. Skambinkite {BRAND.phone} ir
+                parinksime tinkamiausią sprendimą.
               </p>
 
               <ul className="mt-7 space-y-3">
