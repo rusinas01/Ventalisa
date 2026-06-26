@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Atnaujinkite domeną, jei jis pasikeis (šiuo metu: www.ventalisa.lt) -->
+<!-- Atnaujinkite domeną, jei jis pasikeis (šiuo metu: ventalisa.vercel.app) -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.ventalisa.lt/</loc>
+    <loc>https://ventalisa.vercel.app/</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.ventalisa.lt/about</loc>
+    <loc>https://ventalisa.vercel.app/about</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ventalisa.lt/services</loc>
+    <loc>https://ventalisa.vercel.app/services</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.ventalisa.lt/results</loc>
+    <loc>https://ventalisa.vercel.app/results</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ventalisa.lt/contact</loc>
+    <loc>https://ventalisa.vercel.app/contact</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ventalisa.lt/privacy</loc>
+    <loc>https://ventalisa.vercel.app/privacy</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

@@ -15,6 +15,10 @@ export const IMG = {
   case1: '/gallery/inst.avif', // montavimo skiltis (InstallationFeature)
 }
 
+/* Pagrindinis svetainės adresas — naudojamas canonical/OG nuorodoms.
+   Pakeitus domeną, atnaujinkite čia (ir public/sitemap.xml, robots.txt, llms.txt). */
+export const SITE_URL = 'https://ventalisa.vercel.app'
+
 export const BRAND = {
   name: 'MB Ventalisa',
   tagline: 'Oro kondicionavimas',

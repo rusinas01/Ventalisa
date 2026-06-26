@@ -32,4 +32,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://www.ventalisa.lt/sitemap.xml
+Sitemap: https://ventalisa.vercel.app/sitemap.xml

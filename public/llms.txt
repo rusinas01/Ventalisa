@@ -28,9 +28,9 @@ Daikin, Mitsubishi Electric, LG, Samsung, Toshiba, Panasonic, Gree, AUX.
 
 ## Puslapiai
 
-- [Pradžia](https://www.ventalisa.lt/)
-- [Apie mus](https://www.ventalisa.lt/about)
-- [Paslaugos](https://www.ventalisa.lt/services)
-- [Atlikti darbai](https://www.ventalisa.lt/results)
-- [Kontaktai](https://www.ventalisa.lt/contact)
-- [Privatumo politika](https://www.ventalisa.lt/privacy)
+- [Pradžia](https://ventalisa.vercel.app/)
+- [Apie mus](https://ventalisa.vercel.app/about)
+- [Paslaugos](https://ventalisa.vercel.app/services)
+- [Atlikti darbai](https://ventalisa.vercel.app/results)
+- [Kontaktai](https://ventalisa.vercel.app/contact)
+- [Privatumo politika](https://ventalisa.vercel.app/privacy)
