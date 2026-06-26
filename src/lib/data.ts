@@ -165,7 +165,7 @@ export const BENEFITS: { icon: BenefitIcon; title: string; desc: string }[] = [
 
 export const FAQS = [
   {
-    q: 'Kiek kainuoja oro kondicionieriaus montavimas?',
+    q: 'Kiek kainuoja oro kondicionieriaus montavimas Vilniuje?',
     a: 'Kaina priklauso nuo pasirinktos sistemos ir objekto. Darbo įkainis — nuo 200 €/val. Prieš darbus pateikiame nemokamą konsultaciją ir tikslų pasiūlymą. Skambinkite +370 644 22558.',
   },
   {
@@ -179,6 +179,18 @@ export const FAQS = [
   {
     q: 'Per kiek laiko galite sumontuoti kondicionierių?',
     a: 'Dažniausiai darbus suplanuojame per kelias dienas, o skubūs gedimai sprendžiami pirmumo tvarka. Tikslų laiką suderiname po konsultacijos.',
+  },
+  {
+    q: 'Kaip dažnai reikia valyti oro kondicionierių?',
+    a: 'Oro kondicionierių rekomenduojama išvalyti ir patikrinti bent kartą per metus, geriausia pavasarį prieš sezoną. Reguliari priežiūra užtikrina švarų orą, mažesnes elektros sąnaudas ir ilgesnį įrenginio veikimą.',
+  },
+  {
+    q: 'Kokių gamintojų oro kondicionierius montuojate?',
+    a: 'Montuojame ir aptarnaujame visų pagrindinių gamintojų sieninius bei multi-split kondicionierius: Daikin, Mitsubishi Electric, LG, Samsung, Toshiba, Panasonic, Gree ir AUX. Sprendimą parenkame pagal patalpą ir biudžetą.',
+  },
+  {
+    q: 'Ar montuojate oras–oras šilumos siurblius?',
+    a: 'Taip. Montuojame oras–oras šilumos siurblius, kurie vasarą vėsina, o žiemą efektyviai šildo patalpas. Padedame parinkti tinkamą galią pagal namų ar biuro plotą.',
   },
 ]
 

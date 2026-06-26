@@ -26,6 +26,12 @@
       property="og:description"
       content="Oro kondicionavimo sistemų montavimas, priežiūra ir aptarnavimas Vilniuje ir 30 km spinduliu. 18 m. patirtis."
     />
+    <meta property="og:url" content="https://www.ventalisa.lt/" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,37 +40,150 @@
       rel="stylesheet"
     />
 
-    <!-- Local business structured data -->
+    <!-- Structured data (LocalBusiness + WebSite + FAQ) — atnaujinkite domeną, jei jis keisis -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "HVACBusiness",
-        "name": "MB Ventalisa",
-        "description": "Oro kondicionavimo sistemų pardavimas, montavimas, techninė priežiūra ir aptarnavimas gyvenamosioms ir komercinėms patalpoms.",
-        "url": "https://www.ventalisa.lt/",
-        "telephone": "+370 644 22558",
-        "email": "info@ventalisa.lt",
-        "priceRange": "Nuo 200 €/val.",
-        "image": "https://www.ventalisa.lt/og.jpg",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Vilnius",
-          "addressCountry": "LT"
-        },
-        "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": 54.6872,
-            "longitude": 25.2797
+        "@graph": [
+          {
+            "@type": "HVACBusiness",
+            "@id": "https://www.ventalisa.lt/#business",
+            "name": "MB Ventalisa",
+            "description": "Oro kondicionavimo sistemų pardavimas, montavimas, techninė priežiūra ir aptarnavimas gyvenamosioms ir komercinėms patalpoms Vilniuje ir 30 km spinduliu.",
+            "url": "https://www.ventalisa.lt/",
+            "telephone": "+370 644 22558",
+            "email": "info@ventalisa.lt",
+            "priceRange": "Nuo 200 €/val.",
+            "currenciesAccepted": "EUR",
+            "image": "https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1200&q=80",
+            "logo": "https://www.ventalisa.lt/logo.svg",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Vilnius",
+              "addressRegion": "Vilniaus apskritis",
+              "addressCountry": "LT"
+            },
+            "areaServed": [
+              {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 54.6872,
+                  "longitude": 25.2797
+                },
+                "geoRadius": "30000"
+              },
+              { "@type": "City", "name": "Vilnius" },
+              { "@type": "AdministrativeArea", "name": "Vilniaus rajonas" }
+            ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "08:00",
+                "closes": "20:00"
+              }
+            ],
+            "knowsAbout": [
+              "Oro kondicionierių montavimas",
+              "Oro kondicionierių priežiūra ir valymas",
+              "Oro kondicionierių remontas",
+              "Multi-split sistemos",
+              "Šilumos siurbliai oras-oras"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Oro kondicionavimo paslaugos",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": { "@type": "Service", "name": "Oro kondicionierių montavimas", "areaServed": "Vilnius" }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": { "@type": "Service", "name": "Oro kondicionierių priežiūra ir valymas", "areaServed": "Vilnius" }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": { "@type": "Service", "name": "Oro kondicionierių remontas ir aptarnavimas", "areaServed": "Vilnius" }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": { "@type": "Service", "name": "Šilumos siurblių oras-oras montavimas", "areaServed": "Vilnius" }
+                }
+              ]
+            }
           },
-          "geoRadius": "30000"
-        },
-        "knowsAbout": [
-          "Oro kondicionierių montavimas",
-          "Oro kondicionierių priežiūra",
-          "Šilumos siurbliai oras-oras",
-          "Vėdinimo sistemos"
+          {
+            "@type": "WebSite",
+            "@id": "https://www.ventalisa.lt/#website",
+            "url": "https://www.ventalisa.lt/",
+            "name": "MB Ventalisa",
+            "inLanguage": "lt-LT",
+            "publisher": { "@id": "https://www.ventalisa.lt/#business" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.ventalisa.lt/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Kiek kainuoja oro kondicionieriaus montavimas Vilniuje?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Kaina priklauso nuo pasirinktos sistemos ir objekto. Darbo įkainis — nuo 200 €/val. Prieš darbus pateikiame nemokamą konsultaciją ir tikslų pasiūlymą. Skambinkite +370 644 22558."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Ar atvykstate už Vilniaus ribų?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Taip. Dirbame Vilniuje ir 30 km spinduliu aplink miestą. Dėl tolimesnių objektų pasiteiraukite telefonu — suderinsime sąlygas."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Ar teikiate garantinį aptarnavimą?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Taip — atliekame garantinį ir pogarantinį aptarnavimą, profilaktinę priežiūrą bei gedimų šalinimą visų gamintojų sistemoms."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Per kiek laiko galite sumontuoti kondicionierių?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dažniausiai darbus suplanuojame per kelias dienas, o skubūs gedimai sprendžiami pirmumo tvarka. Tikslų laiką suderiname po konsultacijos."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kaip dažnai reikia valyti oro kondicionierių?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oro kondicionierių rekomenduojama išvalyti ir patikrinti bent kartą per metus, geriausia pavasarį prieš sezoną. Reguliari priežiūra užtikrina švarų orą, mažesnes elektros sąnaudas ir ilgesnį įrenginio veikimą."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kokių gamintojų oro kondicionierius montuojate?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Montuojame ir aptarnaujame visų pagrindinių gamintojų sieninius bei multi-split kondicionierius: Daikin, Mitsubishi Electric, LG, Samsung, Toshiba, Panasonic, Gree ir AUX. Sprendimą parenkame pagal patalpą ir biudžetą."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Ar montuojate oras–oras šilumos siurblius?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Taip. Montuojame oras–oras šilumos siurblius, kurie vasarą vėsina, o žiemą efektyviai šildo patalpas. Padedame parinkti tinkamą galią pagal namų ar biuro plotą."
+                }
+              }
+            ]
+          }
         ]
       }
     </script>

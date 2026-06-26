@@ -88,6 +88,7 @@ export function Footer() {
           <Link to="/privacy" className="transition-colors hover:text-white">
             Privatumo politika
           </Link>
+          <span>Informacija atnaujinta 2026 m.</span>
         </div>
       </div>
     </footer>
