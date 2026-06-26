@@ -4,7 +4,7 @@ import { ScheduleForm } from '../components/ScheduleForm'
 import { Footer } from '../components/Footer'
 import { Img, Reveal, SectionTag } from '../components/ui/Primitives'
 import { FeatureBand } from '../components/FeatureBand'
-import { JOBS, IMG } from '../lib/data'
+import { JOBS } from '../lib/data'
 import { AwardIcon, RefreshIcon, BuildingIcon, HandshakeIcon, PinIcon } from '../lib/icons'
 
 const STATS = [
@@ -42,7 +42,7 @@ function JobsGrid() {
             <div className="group overflow-hidden rounded-lg border border-hairline bg-mist-50 transition-shadow duration-300 hover:shadow-[0_24px_50px_-30px_rgba(10,28,40,0.35)]">
               <div className="overflow-hidden">
                 <Img
-                  src={IMG[job.img]}
+                  src={job.img}
                   alt={job.title}
                   className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />

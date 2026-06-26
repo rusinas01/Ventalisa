@@ -5,27 +5,15 @@
    ============================================================ */
 
 export const IMG = {
-  /* Nuotraukos — oro kondicionavimo / HVAC tematika.
-     heroTech = REALI įmonės nuotrauka (LG vidaus blokas): įdėkite failą
-     public/gallery/lg-vidaus.jpg. Likusios — Unsplash (nemokama licencija),
-     turinys patikrintas, visos skirtingos. */
+  /* Nuotraukos, kurias naudoja atskiri komponentai (Hero, „Apie mus", „Kaip dirbame",
+     montavimo skiltis). Paslaugų kortelės ir „Darbai" naudoja tiesiogines nuorodas. */
   heroBg:
-    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1600&q=80', // pramoniniai blokai ant stogo — hero
-  heroTech: '/gallery/lg-vidaus.jpg', // REALI: LG vidaus sieninis blokas (forma, „apie", darbai)
+    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1600&q=80', // hero fonas — blokai ant stogo
+  heroTech: '/gallery/valymas2.webp', // „Apie mus" — meistras montuoja bloką
   team:
-    'https://images.unsplash.com/photo-1700124113583-81aa99ea2aa2?auto=format&fit=crop&w=900&q=80', // šilumos siurblys prie namo
-  process:
-    'https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=900&q=80', // Sharp lauko blokas
-  case1:
-    'https://images.unsplash.com/photo-1762341123870-d706f257a12e?auto=format&fit=crop&w=900&q=80', // vidaus blokas 22° (priežiūra)
-  case2:
-    'https://images.unsplash.com/photo-1667983453881-4992fe86ab1b?auto=format&fit=crop&w=900&q=80', // keli Daikin blokai (multi-split)
-  case3:
-    'https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=900&q=80', // lauko blokas prie namo (remontas)
-  case4:
-    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=900&q=80', // blokai ant stogo (komercija)
-  ctaTech:
-    'https://images.unsplash.com/photo-1700124113583-81aa99ea2aa2?auto=format&fit=crop&w=1200&q=80', // šilumos siurblys (CTA / oras-oras)
+    'https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=900&q=80', // „Apie mus" sekcija
+  process: '/gallery/darb.webp', // „Kaip dirbame" sekcija
+  case1: '/gallery/inst.avif', // montavimo skiltis (InstallationFeature)
 }
 
 export const BRAND = {
@@ -51,7 +39,7 @@ export type ServiceCard = {
   title: string
   desc: string
   features: string[]
-  img: keyof typeof IMG
+  img: string
 }
 
 export const SERVICE_TABS: {
@@ -66,7 +54,7 @@ export const SERVICE_TABS: {
       {
         title: 'Kondicionierių montavimas',
         desc: 'Profesionalus oro kondicionierių montavimas namuose ir butuose.',
-        img: 'heroTech',
+        img: '/gallery/inst.avif',
         features: [
           'Sieninių blokų montavimas',
           'Optimalios vietos parinkimas',
@@ -79,7 +67,7 @@ export const SERVICE_TABS: {
       {
         title: 'Priežiūra ir valymas',
         desc: 'Reguliari priežiūra užtikrina švarų orą ir ilgesnį sistemos veikimą.',
-        img: 'case1',
+        img: '/gallery/maint.avif',
         features: [
           'Filtrų valymas ir keitimas',
           'Sistemos dezinfekcija',
@@ -92,7 +80,7 @@ export const SERVICE_TABS: {
       {
         title: 'Remontas ir aptarnavimas',
         desc: 'Greitas gedimų šalinimas ir garantinis aptarnavimas.',
-        img: 'case3',
+        img: '/gallery/rep.jpg',
         features: [
           'Gedimų diagnostika',
           'Komponentų keitimas',
@@ -111,7 +99,7 @@ export const SERVICE_TABS: {
       {
         title: 'Biurai ir patalpos',
         desc: 'Tylus ir efektyvus vėsinimas biurams ir darbo patalpoms.',
-        img: 'case4',
+        img: '/gallery/biurai.jpg',
         features: [
           'Multi-split sistemos',
           'Atskirų zonų valdymas',
@@ -124,7 +112,7 @@ export const SERVICE_TABS: {
       {
         title: 'Parduotuvės ir HoReCa',
         desc: 'Patikimas vėsinimas patalpoms su dideliu žmonių srautu.',
-        img: 'process',
+        img: '/gallery/rs.avif',
         features: [
           'Galingos vėsinimo sistemos',
           'Greitas patalpų atvėsinimas',
@@ -137,7 +125,7 @@ export const SERVICE_TABS: {
       {
         title: 'Komercinis montavimas',
         desc: 'Sprendimai verslui — nuo projekto iki paleidimo.',
-        img: 'ctaTech',
+        img: '/gallery/kond.avif',
         features: [
           'Objekto įvertinimas',
           'Tinkamos sistemos parinkimas',
@@ -247,7 +235,7 @@ export type Job = {
   title: string
   type: string
   location: string
-  img: keyof typeof IMG
+  img: string
 }
 
 export const JOBS: Job[] = [
@@ -255,36 +243,36 @@ export const JOBS: Job[] = [
     title: 'Sieninio kondicionieriaus montavimas',
     type: 'Butas · montavimas',
     location: 'Vilnius',
-    img: 'heroTech',
+    img: '/gallery/atl1.jpg',
   },
   {
     title: 'Multi-split sistema biurui',
     type: 'Biuras · montavimas',
     location: 'Vilnius',
-    img: 'case2',
+    img: '/gallery/atl2.jpg',
   },
   {
     title: 'Kondicionieriaus priežiūra ir valymas',
     type: 'Namas · priežiūra',
     location: 'Vilniaus r.',
-    img: 'case1',
+    img: '/gallery/atl3.jpg',
   },
   {
     title: 'Parduotuvės vėsinimo sprendimas',
     type: 'Komercija · montavimas',
     location: 'Vilnius',
-    img: 'process',
+    img: '/gallery/atl4.jpg',
   },
   {
     title: 'Gedimo diagnostika ir remontas',
     type: 'Butas · remontas',
     location: 'Vilnius',
-    img: 'case3',
+    img: '/gallery/atl5.jpg',
   },
   {
     title: 'Šilumos siurblys oras–oras',
     type: 'Namas · montavimas',
     location: 'Vilniaus r.',
-    img: 'ctaTech',
+    img: '/gallery/atl6.jpg',
   },
 ]

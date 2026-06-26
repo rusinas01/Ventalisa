@@ -1,4 +1,4 @@
-import { IMG, type ServiceCard } from '../lib/data'
+import { type ServiceCard } from '../lib/data'
 import { Img } from './ui/Primitives'
 import { CheckIcon, ArrowUpRight } from '../lib/icons'
 
@@ -7,7 +7,7 @@ export function ServiceCardView({ card }: { card: ServiceCard }) {
     <div className="flex h-full flex-col rounded-lg border border-hairline bg-mist-50 p-4 sm:p-5">
       <div className="overflow-hidden rounded-lg ring-1 ring-black/5">
         <Img
-          src={IMG[card.img]}
+          src={card.img}
           alt={card.title}
           className="aspect-[4/3] w-full object-cover"
         />

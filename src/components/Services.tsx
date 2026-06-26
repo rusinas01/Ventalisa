@@ -3,7 +3,7 @@ import { SERVICE_TABS } from '../lib/data'
 import { Reveal, SectionTag } from './ui/Primitives'
 import { ServiceCardView } from './ServiceCardView'
 
-export function Services() {
+export function Services({ headerOnly = false }: { headerOnly?: boolean }) {
   const [active, setActive] = useState(SERVICE_TABS[0].id)
   const current = SERVICE_TABS.find((t) => t.id === active) ?? SERVICE_TABS[0]
 
@@ -24,6 +24,8 @@ export function Services() {
           </p>
         </Reveal>
 
+        {!headerOnly && (
+        <>
         {/* ---------- TABS ---------- */}
         <Reveal delay={80} className="mt-10 flex justify-center">
           <div
@@ -60,6 +62,8 @@ export function Services() {
             </Reveal>
           ))}
         </div>
+        </>
+        )}
       </div>
     </section>
   )

@@ -21,7 +21,7 @@ export function ServicesPage() {
       />
       <Navbar />
       <main className="pt-4">
-        <Services />
+        <Services headerOnly />
         <ServiceShowcase title="Komercinės patalpos" subtitle={SUBTITLE} cards={commercial.cards} />
         <ServiceShowcase title="Gyvenamosios patalpos" subtitle={SUBTITLE} cards={residential.cards} />
         <InstallationFeature />

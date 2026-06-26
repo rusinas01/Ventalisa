@@ -1,8 +1,8 @@
 import { useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import { IMG } from '../lib/data'
-import { Img, Reveal } from './ui/Primitives'
-import { CheckIcon, ArrowUpRight } from '../lib/icons'
+import { BRAND } from '../lib/data'
+import { Reveal } from './ui/Primitives'
+import { CheckIcon, ArrowUpRight, PhoneIcon } from '../lib/icons'
 
 const SERVICE_OPTIONS = [
   'Kondicionieriaus montavimas',
@@ -22,32 +22,34 @@ export function ScheduleForm() {
     <section id="contact" className="bg-white px-3 py-10 sm:px-5 md:py-16">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <div className="relative overflow-hidden rounded-lg ring-1 ring-black/5">
-            <Img
-              src={IMG.ctaTech}
-              alt=""
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-br from-ink-950/88 via-ink-950/78 to-brand-700/45" />
+          <div className="relative overflow-hidden rounded-lg bg-gradient-to-br from-ink-900 via-ink-900 to-brand-900 ring-1 ring-black/5">
+            {/* dekoratyvūs spalvos akcentai (be nuotraukų) */}
+            <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-brand-500/25 blur-3xl" />
+            <div className="pointer-events-none absolute -bottom-24 left-1/3 h-72 w-72 rounded-full bg-brand-700/20 blur-3xl" />
 
             <div className="relative grid grid-cols-1 gap-6 p-5 sm:p-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-8">
-              {/* left — image panel */}
-              <div className="relative min-h-[240px] overflow-hidden rounded-lg ring-1 ring-white/10">
-                <Img
-                  src={IMG.heroTech}
-                  alt="MB Ventalisa specialistas"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/85 via-ink-950/20 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-6">
+              {/* left — spalvotas tekstas (be nuotraukos) */}
+              <div className="flex min-h-[240px] flex-col justify-between rounded-lg bg-white/[0.04] p-6 ring-1 ring-white/10 sm:p-7">
+                <span className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/10 px-3 py-1.5 text-[12px] font-medium text-white/85 ring-1 ring-white/15">
+                  <span className="h-2 w-2 rounded-full bg-brand-400" />
+                  Nemokama konsultacija
+                </span>
+                <div className="mt-8">
                   <h3 className="text-2xl font-semibold leading-tight text-white sm:text-3xl">
                     Užsisakykite
                     <br />
                     paslaugą
                   </h3>
-                  <p className="mt-2 text-[13px] text-white/70">
-                    Užpildykite formą arba skambinkite — atsakysime greitai
+                  <p className="mt-3 max-w-xs text-[13px] leading-relaxed text-white/70">
+                    Užpildykite formą arba skambinkite — atsakysime greitai.
                   </p>
+                  <a
+                    href={BRAND.phoneHref}
+                    className="mt-6 inline-flex items-center gap-2.5 rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-ink-900 transition-colors hover:bg-mist-50"
+                  >
+                    <PhoneIcon className="h-4 w-4 text-brand-500" />
+                    {BRAND.phone}
+                  </a>
                 </div>
               </div>
 
