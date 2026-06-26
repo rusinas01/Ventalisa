@@ -10,8 +10,7 @@ export const IMG = {
   heroBg:
     'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1600&q=80', // hero fonas — blokai ant stogo
   heroTech: '/gallery/valymas2.webp', // „Apie mus" — meistras montuoja bloką
-  team:
-    'https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=900&q=80', // „Apie mus" sekcija
+  team: '/gallery/po.avif', // „Apie mus" sekcija
   process: '/gallery/darb.webp', // „Kaip dirbame" sekcija
   case1: '/gallery/inst.avif', // montavimo skiltis (InstallationFeature)
 }
