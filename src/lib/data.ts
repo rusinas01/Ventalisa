@@ -5,27 +5,27 @@
    ============================================================ */
 
 export const IMG = {
-  /* Visų nuotraukų tema — oro kondicionavimas / HVAC (Unsplash, nemokama licencija).
-     Kiekvienos nuotraukos turinys patikrintas. Norėdami naudoti realias įmonės
-     nuotraukas, įdėkite jas į public/gallery/ ir pakeiskite atitinkamą nuorodą. */
+  /* Nuotraukos — oro kondicionavimo / HVAC tematika.
+     heroTech = REALI įmonės nuotrauka (LG vidaus blokas): įdėkite failą
+     public/gallery/lg-vidaus.jpg. Likusios — Unsplash (nemokama licencija),
+     turinys patikrintas, visos skirtingos. */
   heroBg:
-    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1600&q=80', // kondicionierių blokai ant stogo (komercija)
-  heroTech:
-    'https://images.unsplash.com/photo-1759772238012-9d5ad59ae637?auto=format&fit=crop&w=1100&q=80', // vidaus sieninis blokas
+    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1600&q=80', // pramoniniai blokai ant stogo — hero
+  heroTech: '/gallery/lg-vidaus.jpg', // REALI: LG vidaus sieninis blokas (forma, „apie", darbai)
   team:
-    'https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=900&q=80', // baltas kondicionierius
+    'https://images.unsplash.com/photo-1700124113583-81aa99ea2aa2?auto=format&fit=crop&w=900&q=80', // šilumos siurblys prie namo
   process:
-    'https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=900&q=80', // sieninis kondicionieriaus blokas
+    'https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=900&q=80', // Sharp lauko blokas
   case1:
-    'https://images.unsplash.com/photo-1762341123870-d706f257a12e?auto=format&fit=crop&w=900&q=80', // kondicionieriaus valdymas (priežiūra)
+    'https://images.unsplash.com/photo-1762341123870-d706f257a12e?auto=format&fit=crop&w=900&q=80', // vidaus blokas 22° (priežiūra)
   case2:
-    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=900&q=80', // keli blokai (multi-split)
+    'https://images.unsplash.com/photo-1667983453881-4992fe86ab1b?auto=format&fit=crop&w=900&q=80', // keli Daikin blokai (multi-split)
   case3:
-    'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80', // lauko blokas (remontas)
+    'https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=900&q=80', // lauko blokas prie namo (remontas)
   case4:
-    'https://images.unsplash.com/photo-1759772238012-9d5ad59ae637?auto=format&fit=crop&w=900&q=80', // vidaus blokas biurui
+    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=900&q=80', // blokai ant stogo (komercija)
   ctaTech:
-    'https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=1200&q=80', // kondicionierius (CTA)
+    'https://images.unsplash.com/photo-1700124113583-81aa99ea2aa2?auto=format&fit=crop&w=1200&q=80', // šilumos siurblys (CTA / oras-oras)
 }
 
 export const BRAND = {

@@ -2,17 +2,17 @@ MB VENTALISA — nuotraukų aplankas
 ==================================
 
 Įdėkite realias nuotraukas į šį aplanką (public/gallery/) TIKSLIAI šiais pavadinimais.
-Įdėjus failus, atnaujinkite naršyklę (Ctrl+Shift+R) — svetainė iškart naudos jūsų nuotraukas.
+Įdėjus failą, atnaujinkite naršyklę (Ctrl+Shift+R) — svetainė iškart jį naudos.
 
-JAU PRISKIRTA (3 atsiųstos nuotraukos):
-  stogas.jpg        -> Pagrindinė (hero) nuotrauka — stoginė instaliacija (ThermoFisher)
-  multi-split.jpg   -> „Multi-split biurui" — 4 lauko blokai ant sienos
-  lauko-blokai.jpg  -> Remontas / lauko blokai — du blokai prie sienos
+ŠIUO METU NAUDOJAMA SVETAINĖJE:
+  lg-vidaus.jpg   -> LG vidaus sieninis blokas.
+                     Rodoma: užsakymo formos kairėje, „Apie mus" istorijoje
+                     ir „Darbai" skiltyje (sieninio bloko montavimas).
+                     KOL FAILO NĖRA, tos vietos rodys tuščią paveikslėlį.
 
-LAUKIAMA (kai atsiųsite likusias — geriausios iš 11 galerijos):
-  vidaus-namai.jpg      -> Šviesus kambarys su vidaus bloku (puiki hero/namų nuotrauka)
-  vidaus-komercija.jpg  -> Vidaus blokai komercinėje patalpoje
-  lauko-namas.jpg       -> Lauko blokas prie namo / kiemas
-  lauko-bosch.jpg       -> Tvarkingas „Bosch" lauko blokas
+NORITE DAUGIAU REALIŲ NUOTRAUKŲ?
+Atsiųskite jas ir aš priskirsiu konkrečioms vietoms (pvz. lauko blokai,
+komercinės instaliacijos, šilumos siurbliai). Likusios svetainės nuotraukos
+šiuo metu yra Unsplash (HVAC tematika) ir gali būti pakeistos realiomis.
 
-Rekomendacija: JPG, plotis ~1600 px, iki ~500 KB vienai nuotraukai.
+Rekomendacija: JPG, plotis ~1200-1600 px, iki ~500 KB vienai nuotraukai.
