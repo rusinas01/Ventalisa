@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from 'react'
+import { Link } from 'react-router-dom'
 import { IMG } from '../lib/data'
 import { Img, Reveal } from './ui/Primitives'
 import { CheckIcon, ArrowUpRight } from '../lib/icons'
@@ -128,6 +129,25 @@ export function ScheduleForm() {
                         </select>
                       </Field>
                     </div>
+
+                    <label className="mt-5 flex items-start gap-2.5 text-[12.5px] leading-relaxed text-ink-500">
+                      <input
+                        required
+                        type="checkbox"
+                        className="mt-0.5 h-4 w-4 shrink-0 rounded border-hairline accent-brand-500"
+                      />
+                      <span>
+                        Sutinku, kad mano pateikti duomenys būtų tvarkomi siekiant atsakyti į
+                        užklausą pagal{' '}
+                        <Link
+                          to="/privacy"
+                          className="font-medium text-brand-600 underline underline-offset-2 hover:text-brand-700"
+                        >
+                          privatumo politiką
+                        </Link>
+                        .
+                      </span>
+                    </label>
 
                     <div className="mt-6 flex flex-wrap items-center gap-4">
                       <button

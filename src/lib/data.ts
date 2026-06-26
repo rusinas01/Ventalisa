@@ -5,22 +5,27 @@
    ============================================================ */
 
 export const IMG = {
-  // Placeholder nuotraukos — pakeisti realiomis MB Ventalisa galerijos (11) nuotraukomis
+  /* Visų nuotraukų tema — oro kondicionavimas / HVAC (Unsplash, nemokama licencija).
+     Kiekvienos nuotraukos turinys patikrintas. Norėdami naudoti realias įmonės
+     nuotraukas, įdėkite jas į public/gallery/ ir pakeiskite atitinkamą nuorodą. */
+  heroBg:
+    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1600&q=80', // kondicionierių blokai ant stogo (komercija)
   heroTech:
-    'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1100&q=80',
-  team: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=900&q=80',
+    'https://images.unsplash.com/photo-1759772238012-9d5ad59ae637?auto=format&fit=crop&w=1100&q=80', // vidaus sieninis blokas
+  team:
+    'https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=900&q=80', // baltas kondicionierius
   process:
-    'https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?auto=format&fit=crop&w=900&q=80',
+    'https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=900&q=80', // sieninis kondicionieriaus blokas
   case1:
-    'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1762341123870-d706f257a12e?auto=format&fit=crop&w=900&q=80', // kondicionieriaus valdymas (priežiūra)
   case2:
-    'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=900&q=80', // keli blokai (multi-split)
   case3:
-    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80', // lauko blokas (remontas)
   case4:
-    'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1759772238012-9d5ad59ae637?auto=format&fit=crop&w=900&q=80', // vidaus blokas biurui
   ctaTech:
-    'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=80',
+    'https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=1200&q=80', // kondicionierius (CTA)
 }
 
 export const BRAND = {

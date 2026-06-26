@@ -11,8 +11,8 @@ export function Hero() {
         <div className="animate-in relative overflow-hidden rounded-lg ring-1 ring-black/5 shadow-[0_30px_70px_-45px_rgba(8,22,44,0.6)]">
           {/* background image (slow ken-burns zoom) */}
           <Img
-            src={IMG.heroTech}
-            alt="MB Ventalisa specialistai montuoja oro kondicionierių"
+            src={IMG.heroBg}
+            alt="MB Ventalisa sumontuoti oro kondicionieriai komerciniame objekte"
             className="animate-kenburns absolute inset-0 h-full w-full object-cover"
           />
           {/* gradient overlays for legibility (lighter — lets the photo show) */}

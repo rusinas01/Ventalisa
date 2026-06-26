@@ -83,9 +83,12 @@ export function Footer() {
           ))}
         </nav>
 
-        <p className="mt-6 text-center text-[12px] text-white/40">
-          © {new Date().getFullYear()} {BRAND.name}. Visos teisės saugomos.
-        </p>
+        <div className="mt-6 flex flex-col items-center gap-2 text-[12px] text-white/40 sm:flex-row sm:justify-center sm:gap-4">
+          <p>© {new Date().getFullYear()} {BRAND.name}. Visos teisės saugomos.</p>
+          <Link to="/privacy" className="transition-colors hover:text-white">
+            Privatumo politika
+          </Link>
+        </div>
       </div>
     </footer>
   )
